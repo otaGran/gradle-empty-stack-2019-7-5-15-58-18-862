@@ -9,9 +9,10 @@ public class Mobile {
         this.color = color;
         this.brand = brand;
     }
-    public void call(String message){
+    public void sendMessage(String message){
         System.out.println("Message : "+message);
     }
+
     public void getBasicInformation(){
         System.out.printf("name: %s, color: %s, brand: %s\n",name,color,brand);
     }
